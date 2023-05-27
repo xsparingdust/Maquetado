@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+*{font-family: Roboto, sans-serif; margin:0;padding: 0;box-sizing: border-box;} 
+
+.contenedor{background-color:#222222;
+    font-size: 10px;
+    color:#f3f3f3;
+    font-weight: 400;
+    line-height: 11.72px;}
+
+.header-lista{
+    list-style: none;}
+
+.nav{background-color: #F0A83E;
+    font-size: 13px;
+    color:#f3f3f3;
+    font-weight: 400;}
+
+.Banner{background-image:url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size : contain;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C2313;}
+
+    .botton{color: #FFFFFF;
+    background-color: #F0A83E;
+    background-position: 50% 50%;
+    
+    }
+
+.banner_titulo{font-size: 30px;
+    line-height: 35.16px;
+background-color: #FFFFFF;}
+
+footer{background-color:#3C2313;}
+
+.Footer{background-color: #222222;
+    text-align: center;}
+
+.productos{background-color: #FBFAF6;}
+
+h2.productos{font-size: 40px;
+    font-weight: 700;
+    color:#3C2313;}
+
+.estilo{font-size: 20px;
+    font-weight: 700;
+    color: white;}
+
+.estilo2{font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;}
+
+.estilo3{font-size: 10px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 11.72px;
+    background-color:#222222;}
