@@ -1,61 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-
-
-*{font-family: Roboto, sans-serif;margin:0;box-sizing: border-box;} 
-
-.contenedor{background-color:#222222;
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******** Header****************/
+.contenedor {
+    background-color: #222222;
     font-size: 10px;
-    color:#f3f3f3;
+    color: #f3f3f3;
     font-weight: 400;
-    line-height: 11.72px;}
+    line-height: 11.72px;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.header-lista{
-    list-style: none;}
-
-.nav{background-color: #F0A83E;
+.logo{margin-left: 40px;}
+.grandes{flex-grow: 0.8;margin-left: 90px;
+}
+.menu-hamb{display: none;}
+.nav {
+    background-color: #f0a83e;
     font-size: 13px;
-    color:#f3f3f3;
-    font-weight: 400;}
+    color: #f3f3f3;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+}
 
-.Banner{background-image:url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
-    height: 100vh;
-    background-repeat : no-repeat;
-    background-size : contain;
+.header-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.2;
+}
+/********Banner***************/
+.Banner {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    color: #3C2313;}
+    position: relative;
+    color: #3c2313;
+    background-image: url("../img/background\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
 
-    .botton{color: #FFFFFF;
-    }
+.bannertitulo {
+    font-size: 30px;
+    background-color: #f3f3f3;
+    background-size: contain;
+    margin: 12px;
+    border-radius: 5px;
+}
 
-.banner_titulo{font-size: 30px;
-    line-height: 35.16px;
-background-color: #FFFFFF;}
+.botton {
+    color: #ffffff;
+    background-color: #f0a83e;
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
+    margin: 12px;
+}
 
-footer{background-color:#3C2313;}
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
-.Footer{background-color: #222222;
-    text-align: center;}
-
-.productos{background-color: #FBFAF6;}
-
-h2.productos{font-size: 40px;
+.alinear {
+    font-size: 40px;
     font-weight: 700;
-    color:#3C2313;}
+    color: #3c2313;
+}
 
-.estilo{font-size: 20px;
+footer {
+    background-color: #3c2313;
+}
+
+.Footer {
+    background-color: #222222;
+    text-align: center;
+}
+
+/********Productos****************/
+.productos2 {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.churrasquito {
+    background-color: #fbfaf6;
+    text-align: center;
+}
+
+.comedero {
+    background-color: #fbfaf6;
+    text-align: center;
+}
+
+.huesito {
+    background-color: #fbfaf6;
+    text-align: center;
+}
+
+.letra {
+    color: #3c2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.estilo0 {
+    color: #f0a83e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.estilo {
+    font-size: 20px;
     font-weight: 700;
-    color: white;}
+    color: white;
+}
 
-.estilo2{font-size: 10px;
+.estilo2 {
+    font-size: 10px;
     font-weight: 700;
-    color: #8A8787;}
+    color: #8a8787;
+}
+/******** Formulario****************/
+.contactanos{font-weight: 700;font-size: 25px;color: #3C2313;text-align: center;padding-top: 78px;padding-bottom: 20px;}
+form {
+    width: 300px;
+    margin: 20px auto 75px;
+}
 
-.estilo3{font-size: 10px;
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #3c2313;
+    color: #ffffff;
+}
+
+.buttons {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #8A8787;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 110px;
+}
+
+input[type="reset"] {
+    background-color: #F0A83E;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+.estilo3 {
+    font-size: 10px;
     font-weight: 700;
     color: white;
     text-align: center;
-    line-height: 11.72px;
-    background-color:#222222;}
+    background-color: #222222;
+    text-align: center;
+    padding: 4px;
+}
+/********Suscribete****************/
+.suscribete {background-color: #F0A83E;display: flex;justify-content:space-between;height: 60px;}
+
+input[type="email2"]
+{width: 271px;
+height: 40px;
+padding: 5px;
+border-radius: 15px;
+background-color: #ffffff;
+color: #A0A0A0}
+
+input[type="suscribir"] {
+    background-color: #3C2313;
+    width: 70px;
+    border-radius: 15px;
+    font-size: 9px;
+    color: #ffffff;
+    height: 34px;
+    text-align: center;
+    
+}
+
+.corr-flex{display: flex;align-items: center;color:#ffffff;font-size: 20px;font-weight:700;gap: 10px;margin-left: 23px;}
+.form-corr{display: flex;gap: 5px;align-items: center;}
+
+/********Footer****************/
+.footer-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 284px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ubicacion {
+    display: flex;
+    gap: 25px;
+}
+
+.telefono {
+    display: flex;
+    gap: 25px;
+}
+
+.correo {
+    display: flex;
+    gap: 25px;
+}
+@media screen and (max-width: 480px){
+    .header-lista{display:none}
+    .menu-hamb{
+        display: inline-block;
+        font-size: 2rem;
+        z-index: 1000;
+    }
+    .contenedor{display: none;}
+    .productos2{flex-direction: column;}
+    .suscribete{flex-direction: column;height: 101px;align-items: center;}
+    .footer-cont{flex-direction: column-reverse;}
+}
+    

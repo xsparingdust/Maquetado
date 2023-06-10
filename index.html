@@ -1,64 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
-    <header> 
-        <section class="contenedor"> 
-    <p>Grandes ofertas en comederos</p>
-    <ul class="header-lista">
-        <li>Español</li>
-        <li>$ARG</li>
-    </ul>
-</section> 
-    <section class="nav">
-    <img src="img/Logo.png" alt="Logo">
-    <ul >
-        <li><img src="img/pawprint 3.png" alt="patita"><spam>Categorias</spam></li>
-        <li><img src="img/pawprint 3.png" alt="patita"><spam>Pets</spam></li>
-        <li><img src="img/pawprint 3.png" alt="patita"><spam>Nosotros</spam></li>
-        <li><img src="img/pawprint 3.png" alt="patita"><spam>Contactos</spam></li>
-    </ul>
-    </section></header>
-<main>
-<section class="Banner"> 
-    <h2 class="banner_titulo">¡Es un placer tenerte aquí!</h2>
-    <p>¡Comederos en descuento!</p>
-    <p class="botton">COMEDEROS</p>
-</section>
-<section class="productos">
-    <img src="img/pawprint 1.png" alt="patita">
-    <h2 class="productos">Productos Destacados</h2>
-    <p>Comederos - Accesorios - Comida</p>
-    <img src="img/churrasquito.png" alt="churrasquito">
-    <p>Juguete Churrasquito</p>
-    <p>$150</p>
-    <img src="img/comedero.png" alt="comedero">
-    <p>Comedero para perro</p>
-    <p>$250</p>
-    <img src="img/Huesito.png" alt="huesito">
-    <p>Juguete Huesito</p>
-    <p>$650</p>
-</section>
-</main>
-<footer>
-    <img src="img/Icono_ubicacion.png" alt="Ubicacion">
-    <p class="estilo">Localidad</p>
-    <p class="estilo2">Calle-provincia</p>
-    <img src="img/Icono_llamada.png" alt="Telefono">
-    <p class="estilo">Teléfono</p>
-    <p class="estilo2">Número de teléfono</p>
-    <img src="img/Icono_Mail.png" alt="Correo">
-    <p class="estilo">Correo Electrónico</p>
-    <p class="estilo2">Dirección de correo</p>
-    <img src="img/Logo-V2.png" alt="logo2">
-    <p class="estilo3">Todos los derechos reservados Front End</p>
-    
-</footer>
+    <header>
+        <section class="contenedor">
+            <div class="grandes">Grandes ofertas en comederos</div>
+            <div class="header-lista">
+                <li>Español</li>
+                <li>$ARG</li>
+            </div>
+        </section>
+        <section class="nav">
+            <div class="logo"><img src="img/Logo.png" alt="Logo"></div>
+            <div class="menu-hamb"><i class="fa-sharp fa-solid fa-bars"></i></div>
+            <ul class="header-lista">
+                <li><img src="img/pawprint 3.png" alt="patita">
+                    <spam>Categorias</spam>
+                </li>
+                <li><img src="img/pawprint 3.png" alt="patita">
+                    <spam>Pets</spam>
+                </li>
+                <li><img src="img/pawprint 3.png" alt="patita">
+                    <spam>Nosotros</spam>
+                </li>
+                <li><img src="img/pawprint 3.png" alt="patita">
+                    <spam>Contactos</spam>
+                </li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="Banner">
+            <div class="bannertitulo">¡Es un placer tenerte aquí!</div>
+            <div class="comederos">¡Comederos en descuento!</div>
+            <button class="botton">COMEDEROS</button>
+        </section>
+        <section class="productos">
+            <div class="contenedor2">
+                <div><img src="img/pawprint 1.png" alt="patita"></div>
+                <div class="alinear">Productos Destacados</div>
+                <div>Comederos - Accesorios - Comida</div>
+            </div>
+            <section class="productos2">
+                <div class="churrasquito">
+                    <img src="img/churrasquito.png" alt="churrasquito">
+                    <p class="letra"> Juguete Churrasquito</p>
+                    <p class="estilo0">$150</p>
+                </div>
+                <div class="comedero">
+                    <img src="img/comedero.png" alt="comedero">
+                    <p class="letra">Comedero para perro</p>
+                    <p class="estilo0">$250</p>
+                </div>
+                <div class="huesito">
+                    <img class="padding" src="img/Huesito.png" alt="huesito">
+                    <p class="letra">Juguete Huesito</p>
+                    <p class="estilo0">$650</p>
+            </section>
+            </div>
+        </section>
+        <section class="formulario">
+            <h2 class="contactanos">Contáctanos</h2>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Nombre y Apellido">
+                <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico">
+                <input type="tel" id="phone" name="phone" placeholder="Teléfono">
+                <div class="buttons">
+                    <input type="submit" value="Resetear">
+                    <input type="reset" value="Enviar">
+                </div>
+            </form>
+        </section>
+        <div class="suscribete">   
+            <div class="corr-flex"><img src="img/enviar-correo 1.png" alt="envio"><p>Suscribete para mas novedades</p></div>
+            <div class="form-corr"><input type="email2" id="email" name="email" placeholder="Ingresa tu correo electrónico">
+            <input type="suscribir" value="Suscribirme"></div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <section class="footer-cont">
+            <div class="contacto">
+                <div class="ubicacion">
+                    <div><img src="img/Icono_ubicacion.png" alt="Ubicacion"></div>
+                    <div>
+                        <p class="estilo">Localidad</p>
+                        <p class="estilo2">Calle-provincia</p>
+                    </div>
+                </div>
+                <div class="telefono">
+                    <div><img src="img/Icono_llamada.png" alt="Telefono"></div>
+                    <div>
+                        <p class="estilo">Teléfono</p>
+                        <p class="estilo2">Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="correo">
+                    <div><img src="img/Icono_Mail.png" alt="Correo"></div>
+                    <div>
+                        <p class="estilo">Correo Electrónico</p>
+                        <p class="estilo2">Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="img/Logo-V2.png" alt="logo2">
+            </div>
+        </section>
+        <section>
+            <p class="estilo3">Todos los derechos reservados Front End</p>
+        </section>
+    </footer>
 </body>
+
 </html>
