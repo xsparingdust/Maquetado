@@ -220,7 +220,7 @@ input[type="suscribir"] {
 .corr-flex{display: flex;align-items: center;color:#ffffff;font-size: 20px;font-weight:700;gap: 10px;margin-left: 23px;}
 .form-corr{display: flex;gap: 5px;align-items: center;}
 
-/********Footer****************/
+/********Footer***************/
 .footer-cont {
     display: flex;
     justify-content: space-around;
