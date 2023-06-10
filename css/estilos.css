@@ -103,6 +103,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 22px;
+    flex-wrap: wrap;
 }
 
 .churrasquito {
